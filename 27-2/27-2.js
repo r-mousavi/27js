@@ -1,13 +1,13 @@
 let Height = prompt("please insert your Height , only meter ");
 
-if (Height > 2.5) {
+if (Height > 2.5 && Height == null) {
     alert("not valid");
     throw new Error();
 }
 
 const Weight = prompt("please insert your Weight , only kilogram ");
 
-if (Weight > 300) {
+if (Weight > 300 && Height == null) {
     alert("not valid");
     throw new Error();
 }
@@ -20,35 +20,35 @@ if (BMI < 16) {
 }
 
 if (16 <= BMI && BMI <= 17) {
-    alert("Moderate Thinness : " + BMI)
+    alert("Moderate Thinness : " + Math.round(BMI))
     throw new Error();
 }
 
 if (17.1 <= BMI && BMI <= 18.5) {
-    alert("Mild Thinness : " + BMI)
+    alert("Mild Thinness : " + Math.round(BMI))
     throw new Error();
 }
 
 if (18.6 <= BMI && BMI <= 25) {
-    alert("Normal : " + BMI)
+    alert("Normal : " + Math.round(BMI))
     throw new Error();
 }
 
 if (25.1 <= BMI && BMI <= 30) {
-    alert("Overweight : " + BMI)
+    alert("Overweight : " + Math.round(BMI))
     throw new Error();
 }
 
 if (30.1 <= BMI && BMI <= 35) {
-    alert("Obese Class I : " + BMI)
+    alert("Obese Class I : " + Math.round(BMI))
     throw new Error();
 }
 
 if (35.1 <= BMI && BMI <= 40) {
-    alert("Obese Class II : " + BMI)
+    alert("Obese Class II : " + Math.round(BMI))
     throw new Error();
 }
 
 if (BMI > 40) {
-    alert("Obese Class III : " + BMI)
+    alert("Obese Class III : " + Math.round(BMI))
 }
