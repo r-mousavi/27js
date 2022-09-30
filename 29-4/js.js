@@ -1,8 +1,8 @@
-let x = +prompt("UNTIL ZERO");
-let y = x;
-while (x != 0) {
-    x = +prompt("not yet");
-    y += x
+let num = +prompt("please add your number")
+let total = num;
+while (num != 0) {
+    num = +prompt("you can add more")
+    total += num
 }
-alert(y)
+alert(total)
 
