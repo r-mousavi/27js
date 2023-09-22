@@ -1,0 +1,282 @@
+.top-border {
+    display: none;
+}
+
+.back-all-up2 {
+    background: none;
+}
+
+.up-content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sec-1-logos {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-1-links {
+    width: 100%;
+}
+
+.all-time {
+    flex-direction: column;
+}
+
+.line h2 {
+    font-size: 24px;
+}
+
+.sec-5-para {
+    width: 70%;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.sec-4-row {
+    margin-bottom: 40px;
+}
+
+.header-middle-list {
+    margin-top: 100px;
+}
+
+
+
+.heading p {
+    letter-spacing: 0;
+}
+
+.sec-2-white-svgp p {
+    overflow: hidden;
+}
+
+.up-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.tracks-img {
+    width: 90%;
+}
+
+.sec-2-h {
+    font-size: 35px;
+    letter-spacing: 4px;
+    padding-top: 0;
+}
+
+/* --------------------------------header start --------------------------*/
+#hidden {
+    display: none;
+}
+
+header {
+    font-family: fira-bold-italic;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgba(40, 33, 85, .95);
+    background-image: linear-gradient(180deg, #1d1e4c 10%, rgba(131, 51, 193, .15) 100%);
+}
+
+.header-middle-list a:hover {
+    animation-name: none;
+    animation-duration: 1s;
+    color: white;
+    -webkit-animation: 0;
+}
+
+.header-home {
+    color: #ee3a86;
+    padding-bottom: 0;
+    border-bottom: none;
+    -webkit-animation: 0;
+}
+
+.d-nb {
+    display: block;
+}
+
+.hamburger {
+    display: block;
+    z-index: 11;
+}
+
+.hamburger.active .hamburger-bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .hamburger-bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .hamburger-bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    right: -100%;
+    top: 0px;
+    flex-direction: column;
+    background-color: #27244b;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+    z-index: 10;
+}
+
+
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-right {
+    display: none;
+}
+
+.nav-item {
+    margin: 16px 0;
+}
+
+nav.active {
+    right: 0;
+}
+
+/* --------------------------------header end --------------------------*/
+/* ...................................title start .................................... */
+
+.title h1 {
+    font-size: 40px;
+}
+
+.underhead2 {
+    display: none;
+}
+
+/* ...................................title end .................................... */
+
+/* ..................................tracks start...................................... */
+.list {
+    margin-top: 40px;
+}
+
+.tracks-list-img {
+    flex-direction: column;
+}
+
+.tracks-img {
+    width: 90%;
+}
+
+.list {
+    padding-left: 0;
+    width: 100%;
+}
+
+/* ..................................tracks end...................................... */
+
+/* --------------------------------sec-2 start --------------------------*/
+.sec-2-white {
+    padding: 50px;
+}
+
+.sec-2-under {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* --------------------------------sec-2 end --------------------------*/
+
+/* --------------------------------sec-3 start --------------------------*/
+
+
+.sec-3-table tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-3 .date {
+    padding: 16px 0px 5px;
+    color: #7a7498;
+    letter-spacing: 4px;
+}
+
+.sec-3 .name {
+    padding: 5px 0px;
+    color: white;
+    letter-spacing: 4px;
+    font-style: italic;
+    text-align: center;
+}
+
+.sec-3 .buy {
+    padding: 5px 0px 16px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.sec-3 .buy a {
+    color: #f43983;
+}
+
+.sec-3-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 960px;
+    margin: auto;
+}
+
+.sec-3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* --------------------------------sec-3 end --------------------------*/
+
+/* --------------------------------sec-4 start --------------------------*/
+
+.sec-4-row-list {
+    width: 45%;
+    padding-left: 0;
+}
+
+.mt-20pxnot {
+    margin-top: 5px;
+}
+
+.mt-20px {
+    margin-top: 5px;
+}
+
+.sec-4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* --------------------------------sec-4 end --------------------------*/
+
+.sec-5-all {
+    text-align: center;
+    padding-bottom: 100px;
+}

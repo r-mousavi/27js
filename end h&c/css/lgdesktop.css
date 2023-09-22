@@ -1,0 +1,33 @@
+.top-border {
+    /* only decktop */
+    border-top: 6px solid transparent;
+    border-image: linear-gradient(90deg, #3234FF, #F43482) 1;
+}
+
+#hidden {
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    z-index: 1000;
+    display: flex;
+    background: rgba(40, 33, 85, .95);
+    background-image: linear-gradient(180deg, #1d1e4c 10%, rgba(131, 51, 193, .15) 100%);
+    box-shadow: 0 5px 25px rgb(14 15 37 / 60%);
+}
+
+
+.hide {
+    opacity: 0;
+    top: -100%;
+    transition: all .5s;
+}
+
+
+.show {
+    opacity: 1;
+    top: 0;
+    transition: all .5s;
+}
